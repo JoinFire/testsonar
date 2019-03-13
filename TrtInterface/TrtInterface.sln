@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrtInterface", "TrtInterface\TrtInterface.csproj", "{A6E376B0-18AD-4729-82EA-2BC8F1029B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.TRTBusinessZT", "Romens.TRTBusinessZT\ERP.TRTBusinessZT.csproj", "{79ED6981-FF9A-42F1-8345-1131BD3331B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E376B0-18AD-4729-82EA-2BC8F1029B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E376B0-18AD-4729-82EA-2BC8F1029B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E376B0-18AD-4729-82EA-2BC8F1029B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E376B0-18AD-4729-82EA-2BC8F1029B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79ED6981-FF9A-42F1-8345-1131BD3331B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79ED6981-FF9A-42F1-8345-1131BD3331B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79ED6981-FF9A-42F1-8345-1131BD3331B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79ED6981-FF9A-42F1-8345-1131BD3331B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5071F3F-3392-4C2D-9A0F-5CBFC8C6128C}
+	EndGlobalSection
+EndGlobal

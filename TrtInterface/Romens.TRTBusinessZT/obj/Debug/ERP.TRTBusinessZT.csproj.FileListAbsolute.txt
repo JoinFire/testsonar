@@ -1,0 +1,11 @@
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\bin\Debug\ERP.TRTBusinessZT.dll
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\bin\Debug\ERP.TRTBusinessZT.pdb
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\bin\Debug\Newtonsoft.Json.dll
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\obj\Debug\ERP.TRTBusinessZT.csproj.CoreCompileInputs.cache
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\obj\Debug\ERP.TRTBusinessZT.csproj.CopyComplete
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\obj\Debug\ERP.TRTBusinessZT.dll
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\obj\Debug\ERP.TRTBusinessZT.pdb
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\bin\Debug\NewLife.Core.dll
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\bin\Debug\NewLife.Core.pdb
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\bin\Debug\NewLife.Core.xml
+E:\Romens\Trt\TimingTask\TrtInterface\Romens.TRTBusinessZT\obj\Debug\ERP.TRTBusinessZT.csprojAssemblyReference.cache

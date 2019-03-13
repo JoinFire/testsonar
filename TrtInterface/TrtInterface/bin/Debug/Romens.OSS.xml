@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Romens.OSS</name>
+    </assembly>
+    <members>
+        <member name="T:Romens.OSS.OSSOperator">
+            <summary>
+            董和咏<para>2019.02.25</para>
+            </summary>
+        </member>
+        <member name="M:Romens.OSS.OSSOperator.UpLoadLimit(System.String,System.Boolean,System.String,System.String@)">
+            <summary>
+            上传文件(专用版)
+            </summary>
+            <param name="filePath">待上传文件路径</param>
+            <param name="isFileName">True/False：使用文件名作为对象(Object)名/使用自定义名称作为对象(Object)名</param>
+            <param name="objectName">自定义的对象(Object)名，注意要带后缀名！</param>
+            <param name="error">错误信息</param>
+            <returns>文件URL</returns>
+        </member>
+        <member name="M:Romens.OSS.OSSOperator.DuplicateCheck(System.String,System.String,System.String@)">
+            <summary>
+            检查存储空间中是否存在某对象/文件
+            </summary>
+            <param name="bucketName">存储空间名</param>
+            <param name="objectName">对象/文件名</param>
+            <param name="error">错误信息</param>
+            <returns>True/False：存在/不存在</returns>
+        </member>
+        <member name="M:Romens.OSS.OSSOperator.GetObjectURL(System.String,System.String,System.Int64,System.Boolean,System.String@)">
+            <summary>
+            获取指定存储空间下指定对象文件的URL
+            </summary>
+            <param name="bucketName">存储空间名</param>
+            <param name="objectName">对象/文件名</param>
+            <param name="limitTime">URL时效</param>
+            <param name="ssl">True/False：使用HTTPS/使用HTTP<para>注：HTTPS在chrome内核的浏览器中支持PDF文件预览。</para></param>
+            <param name="error">错误信息</param>
+            <returns>对象文件的URL</returns>
+        </member>
+        <member name="M:Romens.OSS.OSSOperator.UpLoad(System.String,System.String,System.Boolean,System.String,System.Boolean,System.Int64,System.Boolean,System.Boolean@,System.String@)">
+            <summary>
+            上传文件
+            </summary>
+            <param name="bucketName">存储空间(Bucket)名称</param>
+            <param name="filePath">待上传文件路径</param>
+            <param name="isFileName">True/False：使用文件名作为对象(Object)名/使用自定义名称作为对象(Object)名</param>
+            <param name="objectName">自定义的对象(Object)名，注意要带后缀名！</param>
+            <param name="UrlMsg">True/False：返回上传结果/返回对象文件的URL</param>
+            <param name="limitTime">返回URL的效期</param>
+            <param name="ssl">True/False：对于返回的URL使用HTTPS/使用HTTP</param>
+            <param name="UrlorMsg">结果/URL</param>
+            <param name="error">错误信息</param>
+            <returns>执行结果/对象文件URL</returns>
+        </member>
+        <member name="M:Romens.OSS.OSSOperator.DeleteFile(System.String,System.String,System.String@)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="bucketName">存储空间名</param>
+            <param name="objectName">对象文件名</param>
+            <param name="error">错误信息</param>
+            <returns>执行结果</returns>
+        </member>
+    </members>
+</doc>
